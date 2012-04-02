@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C767AC1529FF3F0094A247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C767AB1529FF3F0094A247 /* UIKit.framework */; };
+		31C767AE1529FF3F0094A247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C767AD1529FF3F0094A247 /* Foundation.framework */; };
+		31C767B01529FF3F0094A247 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C767AF1529FF3F0094A247 /* CoreGraphics.framework */; };
+		31C767B61529FF400094A247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C767B41529FF400094A247 /* InfoPlist.strings */; };
+		31C767B81529FF400094A247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C767B71529FF400094A247 /* main.m */; };
+		31C767BC1529FF400094A247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C767BB1529FF400094A247 /* AppDelegate.m */; };
+		31C767BF1529FF400094A247 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C767BE1529FF400094A247 /* MasterViewController.m */; };
+		31C767C21529FF400094A247 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C767C11529FF400094A247 /* DetailViewController.m */; };
+		31C767C51529FF400094A247 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C767C31529FF400094A247 /* MasterViewController_iPhone.xib */; };
+		31C767C81529FF400094A247 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C767C61529FF400094A247 /* MasterViewController_iPad.xib */; };
+		31C767CB1529FF400094A247 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C767C91529FF400094A247 /* DetailViewController_iPhone.xib */; };
+		31C767CE1529FF400094A247 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C767CC1529FF400094A247 /* DetailViewController_iPad.xib */; };
+		31C767DE1529FF950094A247 /* C4MToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C767DC1529FF950094A247 /* C4MToast.m */; };
+		31C767DF1529FF950094A247 /* C4MToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C767DD1529FF950094A247 /* C4MToast.xib */; };
+		31C767E3152A00840094A247 /* AnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C767E2152A00840094A247 /* AnimatedView.m */; };
+		31C767E9152A01C00094A247 /* C4MToast_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C767E8152A01C00094A247 /* C4MToast_iPad.xib */; };
+		31C767ED152A031D0094A247 /* C4MLocalizedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C767EC152A031D0094A247 /* C4MLocalizedLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31C767A71529FF3F0094A247 /* C4MToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4MToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C767AB1529FF3F0094A247 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31C767AD1529FF3F0094A247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31C767AF1529FF3F0094A247 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31C767B31529FF400094A247 /* C4MToast-Info.plist */ = {isa = PBXFileReference; path = "C4MToast-Info.plist"; sourceTree = "<group>"; };
+		31C767B51529FF400094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31C767B71529FF400094A247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31C767B91529FF400094A247 /* C4MToast-Prefix.pch */ = {isa = PBXFileReference; path = "C4MToast-Prefix.pch"; sourceTree = "<group>"; };
+		31C767BA1529FF400094A247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31C767BB1529FF400094A247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31C767BD1529FF400094A247 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		31C767BE1529FF400094A247 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		31C767C01529FF400094A247 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		31C767C11529FF400094A247 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		31C767C41529FF400094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		31C767C71529FF400094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		31C767CA1529FF400094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		31C767CD1529FF400094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		31C767DB1529FF950094A247 /* C4MToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MToast.h; sourceTree = "<group>"; };
+		31C767DC1529FF950094A247 /* C4MToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MToast.m; sourceTree = "<group>"; };
+		31C767DD1529FF950094A247 /* C4MToast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C4MToast.xib; sourceTree = "<group>"; };
+		31C767E1152A00840094A247 /* AnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedView.h; sourceTree = "<group>"; };
+		31C767E2152A00840094A247 /* AnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedView.m; sourceTree = "<group>"; };
+		31C767E8152A01C00094A247 /* C4MToast_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C4MToast_iPad.xib; sourceTree = "<group>"; };
+		31C767EB152A031D0094A247 /* C4MLocalizedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MLocalizedLabel.h; sourceTree = "<group>"; };
+		31C767EC152A031D0094A247 /* C4MLocalizedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MLocalizedLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C767A41529FF3F0094A247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C767AC1529FF3F0094A247 /* UIKit.framework in Frameworks */,
+				31C767AE1529FF3F0094A247 /* Foundation.framework in Frameworks */,
+				31C767B01529FF3F0094A247 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C7679C1529FF3F0094A247 = {
+			isa = PBXGroup;
+			children = (
+				31C767B11529FF400094A247 /* toast */,
+				31C767AA1529FF3F0094A247 /* Frameworks */,
+				31C767A81529FF3F0094A247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31C767A81529FF3F0094A247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C767A71529FF3F0094A247 /* C4MToast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C767AA1529FF3F0094A247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31C767AB1529FF3F0094A247 /* UIKit.framework */,
+				31C767AD1529FF3F0094A247 /* Foundation.framework */,
+				31C767AF1529FF3F0094A247 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31C767B11529FF400094A247 /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				31C767BA1529FF400094A247 /* AppDelegate.h */,
+				31C767BB1529FF400094A247 /* AppDelegate.m */,
+				31C767BD1529FF400094A247 /* MasterViewController.h */,
+				31C767BE1529FF400094A247 /* MasterViewController.m */,
+				31C767C01529FF400094A247 /* DetailViewController.h */,
+				31C767C11529FF400094A247 /* DetailViewController.m */,
+				31C767C31529FF400094A247 /* MasterViewController_iPhone.xib */,
+				31C767C61529FF400094A247 /* MasterViewController_iPad.xib */,
+				31C767C91529FF400094A247 /* DetailViewController_iPhone.xib */,
+				31C767CC1529FF400094A247 /* DetailViewController_iPad.xib */,
+				31C767EA152A031D0094A247 /* C4MLabelLocalized */,
+				31C767E0152A00840094A247 /* C4MAnimatedView */,
+				31C767DA1529FF950094A247 /* C4MToast */,
+				31C767B21529FF400094A247 /* Supporting Files */,
+			);
+			path = toast;
+			sourceTree = "<group>";
+		};
+		31C767B21529FF400094A247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C767B31529FF400094A247 /* C4MToast-Info.plist */,
+				31C767B41529FF400094A247 /* InfoPlist.strings */,
+				31C767B71529FF400094A247 /* main.m */,
+				31C767B91529FF400094A247 /* C4MToast-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31C767DA1529FF950094A247 /* C4MToast */ = {
+			isa = PBXGroup;
+			children = (
+				31C767DB1529FF950094A247 /* C4MToast.h */,
+				31C767DC1529FF950094A247 /* C4MToast.m */,
+				31C767E8152A01C00094A247 /* C4MToast_iPad.xib */,
+				31C767DD1529FF950094A247 /* C4MToast.xib */,
+			);
+			path = C4MToast;
+			sourceTree = "<group>";
+		};
+		31C767E0152A00840094A247 /* C4MAnimatedView */ = {
+			isa = PBXGroup;
+			children = (
+				31C767E1152A00840094A247 /* AnimatedView.h */,
+				31C767E2152A00840094A247 /* AnimatedView.m */,
+			);
+			path = C4MAnimatedView;
+			sourceTree = "<group>";
+		};
+		31C767EA152A031D0094A247 /* C4MLabelLocalized */ = {
+			isa = PBXGroup;
+			children = (
+				31C767EB152A031D0094A247 /* C4MLocalizedLabel.h */,
+				31C767EC152A031D0094A247 /* C4MLocalizedLabel.m */,
+			);
+			path = C4MLabelLocalized;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C767A61529FF3F0094A247 /* C4MToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C767D11529FF400094A247 /* Build configuration list for PBXNativeTarget "C4MToast" */;
+			buildPhases = (
+				31C767A31529FF3F0094A247 /* Sources */,
+				31C767A41529FF3F0094A247 /* Frameworks */,
+				31C767A51529FF3F0094A247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C4MToast;
+			productName = toast;
+			productReference = 31C767A71529FF3F0094A247 /* C4MToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C7679E1529FF3F0094A247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 31C767A11529FF3F0094A247 /* Build configuration list for PBXProject "C4MToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31C7679C1529FF3F0094A247;
+			productRefGroup = 31C767A81529FF3F0094A247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C767A61529FF3F0094A247 /* C4MToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C767A51529FF3F0094A247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C767B61529FF400094A247 /* InfoPlist.strings in Resources */,
+				31C767C51529FF400094A247 /* MasterViewController_iPhone.xib in Resources */,
+				31C767C81529FF400094A247 /* MasterViewController_iPad.xib in Resources */,
+				31C767CB1529FF400094A247 /* DetailViewController_iPhone.xib in Resources */,
+				31C767CE1529FF400094A247 /* DetailViewController_iPad.xib in Resources */,
+				31C767DF1529FF950094A247 /* C4MToast.xib in Resources */,
+				31C767E9152A01C00094A247 /* C4MToast_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C767A31529FF3F0094A247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C767B81529FF400094A247 /* main.m in Sources */,
+				31C767BC1529FF400094A247 /* AppDelegate.m in Sources */,
+				31C767BF1529FF400094A247 /* MasterViewController.m in Sources */,
+				31C767C21529FF400094A247 /* DetailViewController.m in Sources */,
+				31C767DE1529FF950094A247 /* C4MToast.m in Sources */,
+				31C767E3152A00840094A247 /* AnimatedView.m in Sources */,
+				31C767ED152A031D0094A247 /* C4MLocalizedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31C767B41529FF400094A247 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C767B51529FF400094A247 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31C767C31529FF400094A247 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C767C41529FF400094A247 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		31C767C61529FF400094A247 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C767C71529FF400094A247 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		31C767C91529FF400094A247 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C767CA1529FF400094A247 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		31C767CC1529FF400094A247 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C767CD1529FF400094A247 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C767CF1529FF400094A247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31C767D01529FF400094A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C767D21529FF400094A247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "toast/C4MToast-Prefix.pch";
+				INFOPLIST_FILE = "toast/C4MToast-Info.plist";
+				PRODUCT_NAME = C4MToast;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31C767D31529FF400094A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "toast/C4MToast-Prefix.pch";
+				INFOPLIST_FILE = "toast/C4MToast-Info.plist";
+				PRODUCT_NAME = C4MToast;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C767A11529FF3F0094A247 /* Build configuration list for PBXProject "C4MToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C767CF1529FF400094A247 /* Debug */,
+				31C767D01529FF400094A247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C767D11529FF400094A247 /* Build configuration list for PBXNativeTarget "C4MToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C767D21529FF400094A247 /* Debug */,
+				31C767D31529FF400094A247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C7679E1529FF3F0094A247 /* Project object */;
+}
